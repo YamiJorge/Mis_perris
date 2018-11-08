@@ -79,9 +79,9 @@ WSGI_APPLICATION = 'misperris.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'Mis_perris',
+        'NAME': 'misperris',
         'USER': 'postgres',
-        'PASSWORD': 'isi2530',
+        'PASSWORD': 'j0rgito1985',
         'HOST': 'localhost',
         'PORT': 5432,
     }
