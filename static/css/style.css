@@ -1,0 +1,331 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: Comic Sans, Helvetica;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Css */
+
+div.container-fluid{
+   padding-right: 0px !important;
+   padding-left: 0px !important;
+  	margin: 0px;
+}
+
+.main{
+	background-color: #58ACFA;
+	border-radius: .25rem;
+}
+
+.main-up{
+	background-color: #71D2F4;
+}
+
+.header-nav{
+	background-color: #85D4B7;
+	overflow: hidden;
+}
+
+header #logo{
+	float: left;
+	width: 20%;
+}
+
+header #logo a img{
+	margin: 10px;
+}
+
+ul{
+	float: right;
+	margin-right: 20%;
+	padding: 0px;
+
+}
+
+li{
+	float:left;
+	margin: 10px;
+}
+
+.principal{
+	float: left;
+	margin: 0px;
+	color: white;
+
+	display: block;
+}
+
+#principal{
+	float: left;
+	margin: 0px;
+	color: white;
+
+	display: block;
+
+}
+
+
+
+.nave li> ul{
+	margin: 0px;
+	display: ;
+	position: absolute;
+	min-width: 200px;
+	
+}
+
+.nave li:hover>ul{
+	display: block;
+
+}
+
+.seleccion {
+
+	
+}
+
+
+
+header #perro{
+	text-align: center;
+	background-color: #6DCCAA;
+
+}
+
+.img-50{
+	height: 550px;
+}
+
+.main-img{
+	margin: auto;
+	display: block;
+	width: 50%;
+	height: 50%;
+}
+
+#contenedor{
+    width: 100%;
+}
+
+
+header #contacto{
+	background-color: #85D4B7;
+	color: white;
+
+}
+
+#redes div i{
+	height: 50px;
+	width: 50px;
+	margin-right: 30%;
+	float: right;
+	margin-bottom: 1rem;
+
+}
+
+i{
+	font-size: 3em;
+}
+
+.float-l{
+	float: left;
+}
+
+.float-r{
+	float: right;
+}
+
+#numero{
+
+	margin-left: 20%;
+
+}
+
+#main{
+	margin-top: 2%;
+	margin-bottom: 3%;
+	font-family: : "";
+}
+
+#main h2{
+	font-weight: bold;
+}
+
+#main h5{
+	font-weight: lighter ;
+	color: #888989;
+
+}
+
+#main img{
+	height: 50%;
+	width: 50%;
+}
+#main_rescate p{
+
+	text-align: right;
+
+}
+#main_crow{
+
+	text-align: left;
+}
+
+#modalform input{
+	margin-top: 0.5rem;
+}
+
+#cartas{
+	padding-right: 3rem;
+	padding-left:  3rem;
+	width: 100%;
+	text-align: center;
+}
+#cartas h2{
+	text-align: center;
+	font-weight: bold;
+	margin-top: 2rem;
+}
+
+.card{
+	margin-top: 4rem;
+}
+.card-img-top{
+	width: 300px;
+	height: 300px;
+}
+
+@media ( max-width: 900px) {
+    #main{
+        height: auto;
+    }
+    
+    .col {
+        width: 100%;
+        float: none;
+        margin:0;
+        padding-left:0;
+    }
+
+    header #logo a img{
+    	margin: 0;
+    	width: auto;
+    }
+
+    i{
+    	font-size: 1em;
+    	float: none;
+    	margin: 0;
+    }
+
+    #redes{
+    	padding-left: 30%;
+    	padding-right: 5rem;
+    	margin-bottom: 1rem;
+    }
+
+    #redes a i{
+	height: auto;
+	width: auto;
+	margin-right: 2rem;
+	float: none;
+	}
+
+	.img-50{
+		height: auto;
+	}
+
+	#cartas{
+		padding-left: 0.2rem;
+		padding-right: 0.2rem;
+	}
+
+	.card{
+		margin-top: 1rem;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.card-img-top{
+	width: 200px;
+	height: 200px;
+	}
+
+	#cartas h2{
+	text-align: center;
+	font-weight: bold;
+	font-size: x-large;
+	}
+
+	#main_crow{
+		margin-left: 0.5rem;
+	}
+
+    }
+}
+
+footer{
+	display: block;
+	background-color: #E6E6E6;
+	height: 100px;
+}
+
+#footer{
+	padding: 20px;
+	background-color: gray;
+	margin-top: 3rem; 
+}
+
+#btn-crfu{
+	background-color: #85D4B7;
+	border-color: #85D4B7;
+}
+.btncombo1{
+	background-color: #85D4B7;
+	color: white;
+}
+
